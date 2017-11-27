@@ -1,0 +1,12 @@
+output/*.pdf
+output/*.docx
+*.pyc
+.DS_Store
+.idea/*
+.vscode/*
+*/.ipynb_checkpoints/*
+notes/*
+.ipynb_checkpoints/*
+*.eps
+*.zip
+*.tif
