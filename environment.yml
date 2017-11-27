@@ -1,0 +1,19 @@
+name: reversephi_plosone
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=2.7
+- ipython=5.3
+- numpy=1.12
+- scipy=0.19
+- pandas=0.20
+- matplotlib=2.1
+- pillow=4.3
+- seaborn=0.7
+- pytables=3.4
+- beautifulsoup4=4.6
+- numba=0.33
+- jupyter=1.0
+- nbconvert=5.1
+- pandoc=1
