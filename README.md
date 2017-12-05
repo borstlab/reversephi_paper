@@ -23,7 +23,7 @@ First, after checking out the repository, install and activate a pre-configured 
 ```bash
 $ git clone https://github.com/borstlab/reversephi_paper.git
 $ cd reversephi_paper
-$ conda env create -f environment.yml
+$ conda env create -f my_environment.yml
 $ source activate reversephi_plosone
 ```
 

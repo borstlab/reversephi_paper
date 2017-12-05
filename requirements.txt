@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+seaborn==0.7
+tables
+beautifulsoup4
+numba
