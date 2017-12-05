@@ -14,7 +14,11 @@ Optical illusions provide powerful tools for mapping the algorithms and circuits
 
 ### Binder support
 
-Each figure of this manuscript is based on a single Jupyter notebook. You can interactively explore these notebooks on mybinder.org -- simply click the badge above. Note that due to size issues, HDF5 data (i.e., behavioral/calcium/electrophysiology data) are not available at the moment. We might add a way to load data remotely (e.g., via S3) at some later point.
+Each figure of this manuscript is based on a single Jupyter notebook. You can interactively explore these notebooks on mybinder.org; simply click the badge above. Note that due to issues with using Git-LFS, HDF5 data (i.e., behavioral/calcium/electrophysiology data) are not available at the moment. We might add a way to load data remotely (e.g., via S3) at some later point.
+
+### Versioning
+
+We've tagged the "release" version of our code as `v1.0`. This represents the exact code used to generate all figures for the published manuscript. If you want to reproduce our plots exactly, check out this tag. We might occasionally add commits to the `master` when improving documentation etc.
 
 ### Building the manuscript
 
@@ -24,7 +28,7 @@ This repository includes full raw data as well as the complete code used to anal
 * ImageMagick (`convert` with support for PDF & TIFF)
 * Standard UNIX tooling (specifically, `make` and `zip`)
 
-First, after checking out the repository, install and activate a pre-configured `conda` environment from the supplied `environment.yml`:
+First, after checking out the repository, install and activate a pre-configured `conda` environment from the supplied `my_environment.yml`:
 
 ```bash
 $ git clone https://github.com/borstlab/reversephi_paper.git
