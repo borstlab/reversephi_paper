@@ -27,6 +27,7 @@ This repository includes full raw data as well as the complete code used to anal
 * Working installation of the Anaconda Python distribution (`conda`)
 * ImageMagick (`convert` with support for PDF & TIFF)
 * Standard UNIX tooling (specifically, `make` and `zip`)
+* `git` with `git-lfs`
 
 First, after checking out the repository, install and activate a pre-configured `conda` environment from the supplied `my_environment.yml`:
 
