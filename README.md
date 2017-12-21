@@ -1,6 +1,6 @@
 ## Neural mechanisms underlying sensitivity to reverse-phi motion in the fly
 
-Leonhardt, Meier, Serbe, Eichner & Borst (2017)
+Leonhardt A, Meier M, Serbe E, Eichner H, Borst A (2017) Neural mechanisms underlying sensitivity to reverse-phi motion in the fly. PLoS ONE 12(12): e0189019. https://doi.org/10.1371/journal.pone.0189019
 
 MPI for Neurobiology, Martinsried
 
@@ -14,11 +14,11 @@ Optical illusions provide powerful tools for mapping the algorithms and circuits
 
 ### Binder support
 
-Each figure of this manuscript is based on a single Jupyter notebook. You can interactively explore these notebooks on mybinder.org; simply click the badge above. Note that due to issues with using Git-LFS, HDF5 data (i.e., behavioral/calcium/electrophysiology data) are not available at the moment. We might add a way to load data remotely (e.g., via S3) at some later point.
+Each figure of this manuscript is based on a single Jupyter notebook. You can interactively explore these notebooks on mybinder.org; simply click the badge above. Note that due to issues with using Git-LFS, HDF5 files (i.e., behavioral/calcium/electrophysiology data) are not available at the moment. We might add a way to load data remotely (e.g., via S3) at some later point.
 
 ### Versioning
 
-We've tagged the "release" version of our code as `v1.0`. This represents the exact code used to generate all figures for the published manuscript. If you want to reproduce our plots exactly, check out this tag. We might occasionally add commits to the `master` when improving documentation etc.
+We've tagged the "release" version of our code as `v1.0`. This represents the exact code used to generate all figures for the published manuscript. If you want to reproduce our plots exactly, check out this tag. We might occasionally add commits to `master` when improving documentation etc.
 
 ### Building the manuscript
 
